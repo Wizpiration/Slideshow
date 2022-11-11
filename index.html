@@ -4,33 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Slideshow</title>
   </head>
   <body>
-    <section aria-label="newest-photos">
-      <div class="slider">
-        <button class="slider-btn btn-next" data-slider-btn>&#8656</button>
-        <button class="slider-btn btn-prev" data-slider-btn>&#8658</button>
-        <ul>
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
+        <ul data-slides>
           <li class="slide" data-active>
-            <img src="./autumn-2.jpg" alt="autumn" />
+            <img src="./autumn-2.jpg" alt="autumn #1" />
           </li>
           <li class="slide">
-            <img src="./autumn-3.jpg" alt="autumn" />
+            <img src="./autumn-3.jpg" alt="autumn #2" />
           </li>
           <li class="slide">
-            <img src="./autumn-4.jpg" alt="autumn" />
+            <img src="./autumn-4.jpg" alt="autumn #3" />
           </li>
           <li class="slide">
-            <img src="./autumn-5.jpg" alt="autumn" />
+            <img src="./autumn-5.jpg" alt="autumn #4" />
           </li>
           <li class="slide">
             <img src="./autumn-1.jpg" alt="autumn" />
